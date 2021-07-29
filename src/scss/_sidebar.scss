@@ -1,0 +1,13 @@
+// sidebar
+#sidebar {
+  background-color: $primary;
+  padding: 15px;
+  @media (min-width: 768px) {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 180px;
+    height: 100%;
+    padding-top: 30px;
+  }
+}

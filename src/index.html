@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="author" content="Vitaliy Nagora">
+  <link rel="icon" href="img/logo.svg">
+  <title>Questions</title>
+  <link href="https://cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet">
+  <script src="https://cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+</head>
+<body>
+  <!-- sidebar -->
+  <div id="sidebar">
+    <div class="mui--text-white mui--text-display1 mui--align-vertical">Questions</div>
+  </div>
+  <!-- content -->
+  <div class="mui-container-fluid" id="content">
+    <div class="mui-row">
+      <div class="mui-col-sm-10 mui-col-sm-offset-1">
+        <div class="mui--text-black-54 mui--text-body2 mt-40 tt-upp">Ask a Question</div>
+        <div class="mui-divider"></div>
+        <!-- form -->
+        <form class="mui-form" id="form">
+          <div class="mui-textfield mui-textfield--float-label">
+            <input id="question-input" type="text" required minlength="10" maxlength="256">
+            <label for="question-input">What do you want to ask?</label>
+          </div>
+          <button type="submit" class="mui-btn mui-btn--raised mui-btn--primary" id="submit" disabled>Submit</button>
+        </form>
+        <!-- questions -->
+        <div class="mui--text-black-54 mui--text-body2 mt-40 tt-upp">Your questions</div>
+        <div class="mui-divider"></div>
+        <!-- list -->
+        <div id="list"></div>
+      </div>
+    </div>
+  </div>
+  <!-- btn-modal -->
+  <button class="mui-btn mui-btn--fab mui-btn--primary btn-float tt-low" id="btn-modal">All</button>
+</body>
+</html>

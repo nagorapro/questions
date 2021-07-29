@@ -1,0 +1,69 @@
+# Main
+dist
+.env
+.idea
+.vscode
+.DS_Store
+node_modules
+logs
+*.log
+.firebaserc
+.firebase/
+.firebase/*
+.firebase-debug.log*
+
+# Intellij
+*.iml
+.idea
+
+# Android Studio
+captures/
+.externalNativeBuild
+
+# Gradle files
+.gradle/
+build/
+
+# Built Android application files
+*.apk
+
+# Local configuration file (ex. SDK path)
+local.properties
+
+# Google Services (ex. APIs and Firebase)
+google-services.json
+GoogleService-Info.plist
+
+# Firebase Hosting
+.firebaserc
+firebase-debug.log
+
+# Build generated
+build/
+DerivedData/
+
+# CocoaPods
+Pods/
+
+# Chrome Extension related
+*.pem
+*.crx
+
+# Local config/setup
+database.rules.json
+samples/android/Continote/app/src/main/res/values/strings.xml
+samples/chrome-extension/Continote/scripts/config.js
+samples/ios/Continote/Continote/Constants.swift
+samples/ios/Continote/Continote/Info.plist
+samples/ios/Continote/Continote.xcodeproj/project.pbxproj
+samples/web/Continote/database.rules.json
+samples/web/Continote/public/scripts/config.js
+
+# Libraries for samples
+samples/android/Continote/app/libs/*.aar
+samples/chrome-extension/Continote/scripts/firebase-continue.js
+samples/ios/Continote/Continote/FCNContinue.h
+samples/ios/Continote/Continote/FCNContinue.m
+
+# Misc.
+*.swp
